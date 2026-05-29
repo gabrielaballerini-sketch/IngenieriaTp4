@@ -13,11 +13,11 @@ import java.util.Date;
  */
 class Tarjeta {
     
-int numcod;
-String titular;
-Date fechaVenc;
-String banco;
-int codigo;
+private int numcod;
+private String titular;
+private Date fechaVenc;
+private String banco;
+private int codigo;
 
     
     

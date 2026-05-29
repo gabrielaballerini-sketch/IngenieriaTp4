@@ -13,16 +13,16 @@ import java.util.List;
  */
 public class Perfil {
     
-double estatura;
-double peso;
-Enum colorPelo;
-Enum colorOjos;
-Enum nivelCultural;
-Enum nivelDeCariño;
-Enum compañerismo;
-Enum alegre;
-Enum nivel;
- List<String> aficciones;
+private double estatura;
+private double peso;
+private Enum colorPelo;
+private Enum colorOjos;
+private Enum nivelCultural;
+private Enum nivelDeCariño;
+private Enum compañerismo;
+private Enum alegre;
+private Enum nivel;
+private List<String> aficciones;
 
     public Perfil() {
     }

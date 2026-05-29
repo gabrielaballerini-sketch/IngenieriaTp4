@@ -9,11 +9,12 @@ package ingenieriatp4;
  *
  * @author Capotes
  */
-public enum colorOjos {
- 
-    VERDE,
-    CELESTE, 
-    MARRON
+public enum EstadoCivil {
+    
+    SOLTERO,
+    DIVORCIADO,
+    VIUDO,
+    CASADO
     
     
 }

@@ -14,11 +14,11 @@ import java.util.Date;
 public class Cobro {
     
     
-int id_cobro;
-Date fecha;
-double costo;
-boolean descuento;
-String estado;
+private int id_cobro;
+private Date fecha;
+private double costo;
+private boolean descuento;
+private String estado;
 
     public Cobro(int id_cobro, Date fecha, double costo, boolean descuento, String estado) {
         this.id_cobro = id_cobro;

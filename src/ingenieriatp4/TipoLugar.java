@@ -9,12 +9,13 @@ package ingenieriatp4;
  *
  * @author Capotes
  */
-public enum colorPelo {
+public enum TipoLugar {
     
-    RUBIO,
-    CASTAÑO,
-    MOROCHO,
-    PELIRROJO
+    CHILL,
+    FUN,
+    SENSUAL,
+    ROMANTIC,
+    EXCITING
     
     
 }

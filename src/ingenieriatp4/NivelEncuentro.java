@@ -9,11 +9,12 @@ package ingenieriatp4;
  *
  * @author Capotes
  */
-public enum nivel {
+public enum NivelEncuentro {
+    
+    LIKE,
+    REGULAR,
+    DISLIKE
     
     
-    BAJO,
-    MEDIO,
-    ALTO
     
 }
