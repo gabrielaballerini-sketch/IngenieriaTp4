@@ -5,6 +5,9 @@
  */
 package ingenieriatp4;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Capotes
@@ -14,7 +17,7 @@ class Lugar {
     
     
  private String nombre;
- private  String direccion;
+ private String direccion;
  private String descripcion;
  private Enum tipoLugar;
 
@@ -56,9 +59,22 @@ class Lugar {
     public void setTipoLugar(Enum tipoLugar) {
         this.tipoLugar = tipoLugar;
     }
-    
-    
-    
 
+    @Override
+    public String toString() {
+        return "Lugar{" + "nombre=" + nombre + ", direccion=" + direccion + ", descripcion=" + descripcion + ", tipoLugar=" + tipoLugar + '}';
+    }
+    
+    
+    public static List<Lugar> verLugaresDeAcuerdoAlTipo(String tipoBuscado, List <Lugar>listaLugares) {
+        List<Lugar> filtrados = new ArrayList<>();
+        for (Lugar lg : listaLugares) {
+            if (lg.getTipoLugar().name().equalsIgnoreCase(tipoBuscado)) {
+                filtrados.add(lg);
+            }
+        }
+        return filtrados;
+    }
+ 
 
 }
